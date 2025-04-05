@@ -19,7 +19,7 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
-    private final String UPLOAD_DIR = "C:\\Users\\Administrator\\Desktop\\Advance Training Projects\\check\\employee\\uploads";
+    private final String UPLOAD_DIR = "C:\\Users\\Administrator\\Desktop\\employee\\uploads";
 
     @GetMapping("/dashboard")
     public String employeeDashboard(Model model) {
